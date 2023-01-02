@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* --- Colors --- */
+// $primary: #00ff40;
+$yellow: #ffd801;
+
+/* --- Fonts --- */
+$main-font: Tahoma, sans-serif;
+$roboto: "Roboto", sans-serif;
+
+/* --- Mixins --- */
+@mixin flexcenter() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin verticalcenter() {
+  display: flex;
+  align-items: center;
+}
+/* --- Custome styles --- */
+.hidden {
+  overflow: hidden;
+}
+.no-scroll {
+  overflow-y: hidden;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}

@@ -1,0 +1,17 @@
+@import "../../../scss/vanillamobilestyle.module.scss";
+
+.img-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 140px;
+  margin: 0px auto;
+}
+
+.img {
+  height: 140px;
+  object-fit: cover;
+  vertical-align: middle;
+  width: 100%;
+}

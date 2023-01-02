@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <title>Embedded Mode - Frame Tester</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #mainFrame {
+            border: 0;
+            width: 90%;
+            /*height: calc(100vh - 2em);*/
+        }
+    </style>
+</head>
+<body>
+<iframe id="mainFrame"
+        src="https://ezstg.xyz"
+        style="height: 500px"></iframe>
+<div style="color: grey; height: 100px"></div>
+<script>
+
+    // 1 - Observe the iframe and notify of any height changes
+    window.addEventListener('resize', function (event) { // observe
+        document.getElementById('mainFrame').contentWindow.postMessage({
+            action: 'app.parent_frame_height',
+            value: window.innerHeight
+        }, '*',);
+    });
+
+    // 2 - Observe the scroll position so the iframe knows where the parent scroll is
+    window.onscroll = function (e) {
+        // called when the window is scrolled.
+        document.getElementById('mainFrame').contentWindow.postMessage({
+            action: 'app.parent_frame_height',
+            value: window.innerHeight
+        }, '*',); // make sure the iframe knows the parent window viewport height
+        document.getElementById('mainFrame').contentWindow.postMessage({
+            action: 'app.parent_frame_scroll_top',
+            value: window.document.documentElement.scrollTop
+        }, '*',)
+    }
+
+
+    // Scroll lock
+    window.addEventListener('message', event => {
+        const data = event.data || {};
+
+        if (data.action === 'app.scroll_lock') {
+            if (data.code === 'LOCK') {
+                document.body.style.overflow = 'hidden';
+            } else if (data.code === 'UNLOCK') {
+                document.body.style.overflow = "unset";
+
+            }
+        }
+    }, false);
+
+    window.addEventListener('message', event => {
+        const data = event.data || {};
+
+        if (data.action === 'app.iframe_resize') {
+            console.log('iframe size UPDATED!');
+            console.log(data);
+            //document.getElementById("mainFrame").height = data.height;
+            document.getElementById("mainFrame").style.height = `${data.height}px`;
+        }
+    }, false);
+
+
+</script>
+</body>
+</html>

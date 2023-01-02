@@ -1,0 +1,2 @@
+export const CHAT_MESSAGE_CUSTOMER = "CUSTOMER";
+export const CHAT_MESSAGE_OPERATOR = "OPERATOR";

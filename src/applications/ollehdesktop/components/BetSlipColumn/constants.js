@@ -1,0 +1,3 @@
+export const BETSLIP_TAB_SINGLE = "SINGLE";
+export const BETSLIP_TAB_MULTIPLE = "MULTIPLE";
+export const BETSLIP_TAB_SYSTEM = "SYSTEM";

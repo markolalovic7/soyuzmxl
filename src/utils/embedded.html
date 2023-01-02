@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<head>
+    <title>Embedded Mode - Frame Tester</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            border-bottom: 1px solid black;
+        }
+
+        .page-title {
+            height: 1em;
+            font-size: 1em;
+            text-align: left;
+            margin: 0.5em 0;
+            flex-basis: 90%;
+            padding-left: 1em;
+        }
+
+        #mainFrame {
+            border: 0;
+            width: 90%;
+            /*height: calc(100vh - 2em);*/
+        }
+
+        .postMessageButton {
+            background: #830101;
+            color: white;
+            display: flex;
+            flex-basis: 10%;
+            height: 2.5em;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            cursor: pointer;
+            margin-right: 0.5em;
+            border: 1px solid #830101;
+            border-radius: 4px;
+            flex-grow: 1;
+            white-space: nowrap;
+            box-shadow: none;
+        }
+    </style>
+</head>
+<body>
+<div class="header"><h1 class="page-title">Embedded Mode - Frame Tester</h1>
+    <button class="postMessageButton"
+            onclick="document.getElementById('mainFrame').contentWindow.postMessage({action: 'app.betslip_panel_toggle'},'*',)">
+        Betslip Panel Toggle
+    </button>
+    <button class="postMessageButton"
+            onclick="document.getElementById('mainFrame').contentWindow.postMessage({action: 'app.iframe_effects', code: 'LOGOUT'},'*',)">
+        Logout
+    </button>
+</div>
+<iframe id="mainFrame"
+        src="http://localhost:3000/?lang=en-GB&accountId=1021&token=GoiVtKKTONpWt8UXZ8UzuAnKby-t0X4_B6yz4nEhMZ405Hjl5o7lHE_YRfdmfH4Ng1tBNhFfeH0uHEEMT_LJf9zkQedO-3AyWq_uuXtU7XSzo9d4rdmrxo1Pdt3c8QMC"
+        style="height: 500px"
+></iframe>
+<div style="color: grey; height: 100px"></div>
+<script>
+
+
+    window.addEventListener('message', event => {
+        const data = event.data || {};
+
+        if (data.action === 'app.betslip_button_status') {
+            console.log('iframe betslip button UPDATED!');
+            console.log(data);
+        }
+    }, false);
+
+
+    window.addEventListener('message', event => {
+        const data = event.data || {};
+
+        if (data.action === 'app.iframe_resize') {
+            console.log('iframe size UPDATED!');
+            console.log(data);
+            //document.getElementById("mainFrame").height = data.height;
+            document.getElementById("mainFrame").style.height = `${data.height}px`;
+        }
+    }, false);
+
+
+    window.addEventListener('message', event => {
+        const data = event.data || {};
+
+        if (data.action === 'app.wallet_update') {
+            console.log('WALLET UPDATED!');
+        }
+    }, false);
+
+
+    window.addEventListener('message', event => {
+        const data = event.data || {};
+
+        if (data.action === 'app.iframe_effects' && data.code === 'LOGIN') {
+            console.log('LOGIN request');
+        }
+    }, false);
+
+    window.addEventListener('message', event => {
+        const data = event.data || {};
+
+        if (data.action === 'app.swipe_left') {
+            alert('Swipe Left');
+        }
+    }, false);
+
+    window.addEventListener('message', event => {
+        const data = event.data || {};
+
+        if (data.action === 'app.swipe_right') {
+            alert('Swipe Right');
+        }
+    }, false);
+
+</script>
+</body>
+</html>

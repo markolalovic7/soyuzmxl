@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "AppleSd";
+  font-weight: 300;
+  src: url("../fonts/applesdgothicneol.woff") format("woff"), url("../fonts/applesdgothicneol.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "AppleSd";
+  font-weight: 400;
+  src: url("../fonts/applesdgothicneor.woff") format("woff"), url("../fonts/applesdgothicneor.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "AppleSd";
+  font-weight: 500;
+  src: url("../fonts/applesdgothicneom.woff") format("woff"), url("../fonts/applesdgothicneom.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "AppleSd";
+  font-weight: 700;
+  src: url("../fonts/applesdgothicneosb.woff") format("woff"), url("../fonts/applesdgothicneosb.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  font-weight: 400;
+  src: url("../fonts/applesdgothneo/AppleSDGothicNeoR1.woff") format("woff"),
+  url("../fonts/applesdgothneo/AppleSDGothicNeoR1.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  font-weight: 500;
+  src: url("../fonts/applesdgothneo/AppleSDGothicNeoM1.woff") format("woff"),
+  url("../fonts/applesdgothneo/AppleSDGothicNeoM1.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  font-weight: 600;
+  src: url("../fonts/applesdgothneo/AppleSDGothicNeoSB1.woff") format("woff"),
+  url("../fonts/applesdgothneo/AppleSDGothicNeoSB1.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  font-weight: 700;
+  src: url("../fonts/applesdgothneo/AppleSDGothicNeoB1.woff") format("woff"),
+  url("../fonts/applesdgothneo/AppleSDGothicNeoB1.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "ComicSansMS";
+  font-weight: 700;
+  src: url("../fonts/comic.woff") format("woff"), url("../fonts/comic.woff2") format("woff2"),
+  url("../fonts/comic.ttf") format("ttf");
+}

@@ -1,0 +1,52 @@
+@import "applications/vanillamobile/scss/vanillamobilestyle.module.scss";
+
+.virtual-sports {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &__iframe_video_wrapper {
+    height: 340px;
+    width: 100%;
+  }
+
+  &__nav_bar_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  &__title {
+    align-items: center;
+    background: $spoiler-special-bg;
+    display: flex;
+    overflow: hidden;
+    padding: 5px 10px;
+  }
+
+  &__icon {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    flex: 0 0 16px;
+
+    svg,
+    i {
+      color: $spoiler-icon;
+      font-size: 16px;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  &__text {
+    color: $spoiler-color;
+    font-size: 14px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    flex: 1 1 auto;
+  }
+}

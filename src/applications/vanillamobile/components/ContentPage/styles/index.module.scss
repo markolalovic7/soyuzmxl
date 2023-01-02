@@ -1,0 +1,68 @@
+@import "applications/vanillamobile/scss/vanillamobilestyle.module.scss";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  overflow: hidden;
+  width: 100%;
+}
+
+.page-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  overflow: hidden;
+  padding: 10px;
+  width: 100%;
+}
+
+.page-content-title {
+  color: var(--burger-item1-color);
+  font-size: 24px;
+  font-weight: 700;
+  width: 100%;
+}
+
+.content {
+  background-color: $main-bg;
+  color: var(--burger-item1-color);
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    overflow: hidden;
+    padding: 5px 0px;
+    text-overflow: ellipsis;
+    width: 100%;
+    white-space: nowrap;
+  }
+
+  p {
+    display: inline-block;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 5px 0px;
+    text-overflow: ellipsis;
+    width: 100%;
+    white-space: nowrap;
+  }
+
+  img {
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+    width: 100%;
+  }
+}

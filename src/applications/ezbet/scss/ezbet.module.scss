@@ -1,0 +1,59 @@
+// Do not modify this section by copy/paste - cherry-pick changes manually
+@import "ezbet.original.module";
+@import "../../../assets/scss/omega-icon.scss";
+
+/*noinspection CssUnknownTarget*/
+@import url("https://avplayer-cdn.sportradar.com/dist/latest/styles.css");
+
+button:disabled {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #d5d5d5;
+  box-shadow: none;
+  pointer-events: none;
+
+  i {
+    &::before {
+      color: #a9a9a9;
+    }
+  }
+}
+
+button.primary:disabled {
+  color: black;
+}
+
+button.active-border-and-value {
+  background: transparent;
+  border: 1px solid #00acee;
+  color: #00acee;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.sport-iconx-active {
+  i {
+    &:before {
+      color: white;
+    }
+  }
+}
+
+.qicon-default {
+  &::before {
+    color: #00acee;
+  }
+}
+
+.icon-angle-up-dark {
+  &::before {
+    color: #777777;
+  }
+}
+
+// .forecast-content {
+//   &.reduced-spacing {
+//     padding-right: 5px !important;
+//     padding-left: 5px !important;
+//   }
+// }

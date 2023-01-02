@@ -1,0 +1,139 @@
+{
+  "parser": "@babel/eslint-parser",
+  "extends": [
+    "airbnb",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:react/jsx-runtime",
+    "prettier"
+  ],
+  "plugins": [
+    "react",
+    "import",
+    "sort-destructure-keys",
+    "sort-keys-fix",
+    "react-hooks",
+    "unused-imports"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "src/applications/**/themes/*.js"
+      ],
+      "rules": {
+        "sort-keys-fix/sort-keys-fix": "off"
+      }
+    }
+  ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
+  },
+  "rules": {
+    "no-unused-vars": "off",
+    "unused-imports/no-unused-imports": "error",
+    "unused-imports/no-unused-vars": [
+      "warn",
+      {
+        "vars": "all",
+        "varsIgnorePattern": "^_",
+        "args": "after-used",
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "newline-before-return": "error",
+    "sort-keys-fix/sort-keys-fix": "error",
+    "radix": "warn",
+    "camelcase": "warn",
+    "class-methods-use-this": "off",
+    "dot-notation": "off",
+    "import/prefer-default-export": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/label-has-associated-control": "warn",
+    "jsx-quotes": ["warn", "prefer-double"],
+    "no-console": "off",
+    "no-nested-ternary": "off",
+    "no-param-reassign": "off",
+    "no-useless-escape": "off",
+    "prefer-destructuring": "off",
+    "react/jsx-sort-props": [
+      "error",
+      {
+        "callbacksLast": true,
+        "shorthandFirst": true
+      }
+    ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/jsx-key": [
+      "error"
+    ],
+    "react/forbid-prop-types": "off",
+    "react/function-component-definition": [
+      1,
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ],
+    "react/jsx-curly-newline": "off",
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [
+          ".js"
+        ]
+      }
+    ],
+    "react/jsx-indent": "off",
+    "react/jsx-indent-props": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-wrap-multilines": "off",
+    "react/no-children-prop": "warn",
+    "react/no-array-index-key": "off",
+    "react/sort-prop-types": [
+      "error",
+      {
+        "sortShapeProp": true
+      }
+    ],
+    "react/prop-types": "error",
+    "react/prefer-stateless-function": "warn",
+    "react/require-default-props": "error",
+    "no-shadow": "off",
+    "import/no-unresolved": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/extensions": "off",
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ],
+    "import/no-cycle": "error",
+    "sort-destructure-keys/sort-destructure-keys": 2
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "requireConfigFile": false,
+    "babelOptions": {
+      "presets": [
+        "@babel/preset-react"
+      ]
+    }
+  }
+}

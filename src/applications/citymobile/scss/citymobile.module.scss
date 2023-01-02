@@ -1,0 +1,133 @@
+// Do not modify this section by copy/paste - cherry-pick changes manually
+@import "./citymobile.original.module";
+
+// changes where we override the original
+
+.breadcrumbs {
+  &__no_bottom_margin {
+    margin: 0 0 0 0;
+  }
+}
+
+.menu {
+  height: calc(100% - 84px);
+}
+
+.mobile-sidebar {
+  top: 0px;
+}
+
+.betslip {
+  &__item {
+    &_closed {
+      pointer-events: auto;
+    }
+  }
+
+  &__button {
+    pointer-events: none;
+
+    &.active {
+      pointer-events: auto;
+    }
+  }
+}
+
+.mybets {
+  overflow: auto;
+}
+
+.score {
+  background: white;
+}
+
+.search-recommended {
+  &__match {
+    font-size: 12px;
+  }
+}
+
+.sports-list {
+  &__icon {
+    padding-bottom: 7.5px;
+  }
+
+  &__live {
+    left: -27px;
+  }
+
+  &__row {
+    display: flex;
+    margin: 0 0 36.5px 0;
+  }
+}
+
+//Loader code (from //https://projects.lukehaas.me/css-loaders/)
+.loader,
+.loader:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+
+.loader {
+  margin: 60px auto;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 1.1em solid #78e5e3;
+  border-right: 1.1em solid #78e5e3;
+  border-bottom: 1.1em solid #78e5e3;
+  border-left: 1.1em solid #f7f7f7;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 1.1s infinite linear;
+  animation: load8 1.1s infinite linear;
+}
+
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+//End loader code
+
+.coupon-spinner {
+  position: fixed;
+  top: 200px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.homepage-spinner {
+  position: fixed;
+  top: 500px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.homepage-slider__item {
+  //height: 130px;
+  margin-right: 10px;
+  width: 100%;
+}

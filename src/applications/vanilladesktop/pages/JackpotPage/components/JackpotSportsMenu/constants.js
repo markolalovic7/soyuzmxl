@@ -1,0 +1,40 @@
+const jackpots = [
+  {
+    label: "Jackpot with Reserve Markets and settle to lose",
+  },
+  { label: "Jackpot Consolation w/o Reserve Markets ( 16 main markets, 15 consolations)" },
+  { label: "Jackpot Consolation w/o Reserve Markets ( 16 main markets, 15 consolations)" },
+  { label: "Jackpot Consolation w/o Reserve Markets ( 16 main markets, 15 consolations)" },
+];
+
+export const DEMO_JACKPOTS_MENU = [
+  {
+    icon: "floo",
+    jackpots,
+    sportLabel: "Football",
+  },
+  { icon: "cric", jackpots, sportLabel: "Cricket" },
+  { icon: "bask", jackpots, sportLabel: "Basketball" },
+  { icon: "base", jackpots, sportLabel: "Baseball" },
+  { icon: "rugb", jackpots, sportLabel: "American Football" },
+  { icon: "badm", jackpots, sportLabel: "Badminton" },
+  { icon: "beac", jackpots, sportLabel: "Beach Volleyball" },
+  { icon: "hand", jackpots, sportLabel: "Handball" },
+  { icon: "iceh", jackpots, sportLabel: "Ice Hockey" },
+  { icon: "snoo", jackpots, sportLabel: "Snooker" },
+  { icon: "tabl", jackpots, sportLabel: "Table Tennis" },
+  { icon: "voll", jackpots, sportLabel: "Volleyball" },
+  { icon: "mosp", jackpots, sportLabel: "Motor Sports" },
+  { icon: "golf", jackpots, sportLabel: "Golf" },
+  { icon: "boxi", jackpots, sportLabel: "Boxing" },
+  { icon: "dart", jackpots, sportLabel: "Darts" },
+  { icon: "coun", jackpots, sportLabel: "Counter-Strike" },
+  { icon: "dota", jackpots, sportLabel: "Dota" },
+  { icon: "leag", jackpots, sportLabel: "League of Legends" },
+  { icon: "star", jackpots, sportLabel: "StarCraft" },
+  { icon: "over", jackpots, sportLabel: "Overwatch" },
+  { icon: "wate", jackpots, sportLabel: "Water polo" },
+  { icon: "cycl", jackpots, sportLabel: "Cycling" },
+  { icon: "aurl", jackpots, sportLabel: "Asussie Rules" },
+  { icon: "skii", jackpots, sportLabel: "Skiing" },
+];

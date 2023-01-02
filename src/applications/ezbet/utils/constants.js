@@ -1,0 +1,2 @@
+export const TWO_DAY_SPORTS_KEY = "TODAY_TOMORROW_DAYAFTERTOMORROW";
+export const ALL_KEY = "ALL";

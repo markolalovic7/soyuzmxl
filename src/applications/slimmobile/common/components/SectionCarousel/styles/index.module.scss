@@ -1,0 +1,18 @@
+@import "applications/slimmobile/scss/slimmobilestyle.module.scss";
+
+.img-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 340px;
+  margin: 0px auto;
+  width: 100%;
+}
+
+.img {
+  height: 340px;
+  object-fit: cover;
+  vertical-align: middle;
+  width: 100%;
+}

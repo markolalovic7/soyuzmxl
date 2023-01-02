@@ -1,0 +1,158 @@
+const sublistDemoArr = [
+  {
+    counter: 333,
+    label: "Default",
+  },
+  { counter: 222, label: "FG-LG" },
+  { counter: 222, label: "1X2-DC" },
+  { counter: 222, label: "Outright" },
+  { counter: 222, label: "HTFT" },
+];
+
+export const DEMO_SPORTS_MENU_DATA = [
+  { iconName: "floo", sportName: "Football", subItems: sublistDemoArr, totalCounter: 333 },
+  {
+    iconName: "cric",
+    sportName: "Cricket",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "bask",
+    sportName: "Basketball",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "base",
+    sportName: "Baseball",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "rugb",
+    sportName: "American Football",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "badm",
+    sportName: "Badminton",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "beac",
+    sportName: "Beach Volleyball",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "hand",
+    sportName: "HandBall",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "iceh",
+    sportName: "Ice Hockey",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "snoo",
+    sportName: "Snooker",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "tabl",
+    sportName: "Table tennis",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "voll",
+    sportName: "Volleybal",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "mosp",
+    sportName: "Motor sports",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "golf",
+    sportName: "Golf",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "boxi",
+    sportName: "Boxing",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "dart",
+    sportName: "Darts",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "coun",
+    sportName: "Counter-Strike",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "dota",
+    sportName: "Dota",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "leag",
+    sportName: "League of Legends",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "star",
+    sportName: "StarCraft",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "over",
+    sportName: "Overwatch",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "wate",
+    sportName: "Water polo",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "cycl",
+    sportName: "Cycling",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "aurl",
+    sportName: "Asussie Rules",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+  {
+    iconName: "skii",
+    sportName: "Skiing",
+    subItems: sublistDemoArr,
+    totalCounter: 87342,
+  },
+];

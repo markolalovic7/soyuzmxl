@@ -1,0 +1,28 @@
+.error-boundary-button {
+  width: 100%;
+  padding: 12px 0;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px;
+  width: 150px;
+}
+
+.error-boundary-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error-boundary-title {
+  flex-grow: 0;
+  flex-shrink: 0;
+  font-weight: 500;
+  font-size: 20px;
+  max-width: 80%;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}

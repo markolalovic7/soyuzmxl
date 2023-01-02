@@ -1,0 +1,32 @@
+/* Copied from file originally provided by web developer, as created for the purpose of the JQuery Slick */
+.slider {
+  min-width: 0;
+  max-width: 100%;
+  padding: 0 10px;
+  margin: 0 0 25px 0;
+  &__item {
+    flex: 0 0 300px;
+    padding: 0 10px;
+    margin: 0 5px 0 0;
+    img {
+      max-width: 100%;
+    }
+  }
+}
+.slick-slider {
+}
+.slick-slider.slick-initialized {
+}
+.slick-list {
+  overflow-x: auto;
+}
+
+.slick-track {
+  display: flex;
+  width: 100%;
+}
+
+.slick-slide {
+  flex: 0 0 300px;
+  width: 200px;
+}

@@ -1,0 +1,52 @@
+@import "applications/vanillamobile/scss/vanillamobilestyle.module.scss";
+
+.date-picker {
+  &-content {
+    align-items: baseline;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  &-icon {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  &-value {
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+  }
+
+  &-picker {
+    background: $vs-item-bg;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    z-index: 1;
+    border-radius: 3px;
+    overflow: hidden;
+    border: 1px solid $vs-item-border;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+
+    abbr {
+      color: $vs-color;
+    }
+  }
+
+  &-wrapper {
+    align-items: center;
+    background: $vs-item-bg;
+    border-radius: 4px;
+    color: $vs-color;
+    display: flex;
+    height: 30px;
+    margin: 0 5px;
+    padding: 4px 16px;
+    position: relative;
+    width: 100%;
+  }
+}

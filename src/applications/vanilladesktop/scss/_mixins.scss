@@ -1,0 +1,52 @@
+@mixin flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin flex-a-center {
+  display: flex;
+  align-items: center;
+}
+@mixin text-ellipsis {
+  flex: 1 1 auto;
+  padding: 0 2px 0 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+@mixin inline-flex-center {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin arrow-bottom {
+  display: inline-block;
+  position: relative;
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+  }
+  &:before {
+    transform: rotate(-45deg);
+  }
+
+  &:after {
+    transform: rotate(45deg);
+  }
+  &.active {
+    &:before {
+      transform: rotate(45deg);
+    }
+
+    &:after {
+      transform: rotate(-45deg);
+    }
+  }
+}

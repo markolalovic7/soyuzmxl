@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <title>Embedded Mode - Frame Tester</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #mainFrame {
+            border: 0;
+            width: 90%;
+            /*height: calc(100vh - 2em);*/
+        }
+    </style>
+</head>
+<body>
+<div style="background-color: #00acee; height: 108px"></div>
+
+<iframe id="mainFrame"
+        src="http://localhost:3000?accountId=1011&lang=en&token=FSZSKTYOK36MxavuXAAAku4YB10zuZp02Sp77YunVYLVecdxmOqz__13krroPZcbWSZe-hzHJySPCYtqES1nh_ezqC0qzYVsq4b0I10UFJq3AgNNxdnp7VRb-brf_WyH"
+        style="height: 600px; width: 100%"></iframe>
+<div style="color: grey; height: 100px"></div>
+
+<script>
+
+    window.addEventListener('message', event => {
+        const data = event.data || {};
+
+        if (data.action === 'app.ez.swipe_right') {
+            // alert("swipe right")
+        }
+        if (data.action === 'app.ez.swipe_left') {
+            // alert("swipe left")
+        }
+
+    }, false);
+</script>
+</body>
+</html>

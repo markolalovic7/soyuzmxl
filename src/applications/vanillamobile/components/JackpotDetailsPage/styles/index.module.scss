@@ -1,0 +1,20 @@
+@import "applications/vanillamobile/scss/vanillamobilestyle.module.scss";
+
+.jackpot-details-empty-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.jackpot-details-empty-text {
+  color: $betslip-bottom-text2;
+  font-size: 16px;
+  max-width: 80%;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}

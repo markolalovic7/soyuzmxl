@@ -1,0 +1,57 @@
+@import "applications/slimmobile/scss/slimmobilestyle.module.scss";
+
+.panel-sport-sports {
+  &-wrapper {
+    background: $sports-row-bg;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+
+  &-item {
+    align-items: center;
+    color: $sports-color;
+    cursor: pointer;
+    border-bottom: 1px solid $sports-row-border;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 14px;
+    line-height: 16px;
+    max-width: calc(100% / 3);
+    padding: 5px;
+    width: 100%;
+  }
+
+  &-item-sport {
+    &:before {
+      color: $sports-item-icon;
+      display: inline-block;
+      font-family: "OmegaIcons";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 1;
+      margin-right: 10px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  }
+
+  &-item-count {
+    color: $sports-item-numbers-color;
+    background: $sports-item-numbers-bg;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px;
+    margin: 0 0 0 auto;
+    text-align: center;
+  }
+}
+
+.sport_bar_wrapper {
+  position: sticky;
+  top: 94px;
+  z-index: 4;
+}

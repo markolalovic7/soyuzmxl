@@ -1,0 +1,279 @@
+﻿/* Slider */
+
+.main-slider {
+  position: relative;
+  min-width: 0;
+  max-width: 100%;
+  margin: 0 0 15px 0;
+}
+
+.main-slider .slick-slide {
+  margin: 0 5px 0 0;
+}
+
+.main-slider .slick-slide img {
+  display: block;
+  display: inline-block;
+
+  max-width: 100%;
+
+  &:last-child {
+    margin: 0;
+  }
+}
+
+.main-slider {
+  position: relative;
+
+  display: block;
+  box-sizing: border-box;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+
+  &:hover {
+    .slick-arrow {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+.main-slider .slick-slide {
+  float: left;
+  width: 300px;
+  height: 200px;
+  min-height: 1px;
+  margin: 0 5px 0 0;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.main-slider .slick-list {
+  position: relative;
+
+  display: block;
+  overflow: hidden;
+
+  margin: 0;
+  padding: 0;
+}
+
+.main-slider .slick-list:focus {
+  outline: none;
+}
+
+.main-slider .slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.main-slider .slick-slider .slick-track,
+.main-slider .slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.main-slider .slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-slider .slick-track:before,
+.main-slider .slick-track:after {
+  display: table;
+
+  content: "";
+}
+
+.main-slider .slick-track:after {
+  clear: both;
+}
+
+.main-slider .slick-loading .slick-track {
+  visibility: hidden;
+}
+
+[dir="rtl"] .main-slider .slick-slide {
+  float: right;
+}
+
+.main-slider .slick-slide.slick-loading img {
+  display: none;
+}
+
+.main-slider .slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.main-slider .slick-initialized .slick-slide {
+  display: block;
+}
+
+.main-slider .slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.main-slider .slick-vertical .slick-slide {
+  display: block;
+
+  height: auto;
+
+  border: 1px solid transparent;
+}
+
+.main-slider .slick-arrow.slick-hidden {
+  display: none;
+}
+
+.main-slider .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.main-slider .slick-dots li {
+  list-style: none;
+  margin: 0 15px 0 0;
+
+  &:last-child {
+    margin: 0;
+  }
+}
+
+.main-slider .slick-dots li.slick-active {
+  button {
+    background: #79e5e3;
+  }
+}
+
+.main-slider .slick-dots li button {
+  font-size: 0;
+  display: inline-block;
+  width: 24px;
+  height: 5px;
+  background: #535353;
+}
+
+.main-slider .slick-arrow {
+  display: inline-block;
+  height: 44px;
+  width: 44px;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  font-size: 0;
+  background: #dadada;
+  transition: all 0.2s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 2;
+
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    height: 11px;
+    width: 2px;
+    left: 50%;
+    border-radius: 1px;
+    background: #201c1c;
+  }
+}
+
+.main-slider .slick-arrow.slick-prev {
+  left: 0;
+
+  &:before {
+    top: 20px;
+    transform: translateY(-50%) rotate(60deg);
+  }
+
+  &:after {
+    top: 25px;
+    transform: translateY(-50%) rotate(-60deg);
+  }
+}
+
+.main-slider .slick-arrow.slick-next {
+  right: -1px;
+
+  &:before {
+    top: 20px;
+    transform: translateY(-50%) rotate(-60deg);
+  }
+
+  &:after {
+    top: 25px;
+    transform: translateY(-50%) rotate(60deg);
+  }
+}
+
+.sports-slider .slick-track {
+  display: flex;
+}
+
+.sports-slider .slick-list {
+  overflow: hidden;
+}
+
+.sports-slider .slick-slide {
+  min-width: 0;
+}
+
+.sports-slider .slick-arrow {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  font-size: 0;
+  background: #ffffff;
+  transition: all 0.2s;
+  z-index: 2;
+
+  &:before {
+    content: url("../img/icons/chevron-right-solid.svg");
+    display: inline-block;
+    width: 9px;
+  }
+}
+
+.sports-slider .slick-arrow.slick-next {
+  right: 0;
+}
+
+.sports-slider .slick-arrow.slick-prev {
+  left: 0;
+
+  &:before {
+    transform: rotate(180deg);
+  }
+}
+
+.sports-slider .slick-arrow.slick-disabled {
+  visibility: hidden;
+  opacity: 0;
+}

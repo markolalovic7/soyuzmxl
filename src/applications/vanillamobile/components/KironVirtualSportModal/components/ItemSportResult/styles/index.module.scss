@@ -1,0 +1,26 @@
+@import "applications/vanillamobile/scss/vanillamobilestyle.module.scss";
+
+.item-sport-result {
+  &-date {
+    color: $vs-item-hidden-color;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  &-title {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 3px 0;
+    line-height: 18px;
+  }
+
+  &-wrapper {
+    align-items: center;
+    background: $vs-item-bg;
+    border-bottom: 1px solid $vs-item-border;
+    display: flex;
+    padding: 8px 10px;
+  }
+}

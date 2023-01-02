@@ -1,0 +1,13 @@
+@import "applications/slimmobile/scss/slimmobilestyle.module.scss";
+
+.item-input-password-icon {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 35px;
+  i,
+  svg {
+    color: #000000;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,27 @@
+@import "slipstream.original.module.scss";
+
+.bet-history-content {
+  &__button {
+    &.disabled {
+      pointer-events: none;
+      background: linear-gradient(to top, #555 0, #888 100%);
+      text-shadow: 0 1px 0 #a2a1a1;
+      color: #3c3b3b;
+    }
+  }
+}
+
+
+// Spinner
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  display: block;
+  marginLeft: auto;
+  marginRight: auto;
+}
+

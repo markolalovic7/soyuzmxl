@@ -1,0 +1,24 @@
+@import "applications/vanillamobile/scss/vanillamobilestyle.module.scss";
+
+.section-no-data-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px;
+  width: 100%;
+}
+
+.section-no-data-label {
+  color: $betslip-bottom-text2;
+  font-size: 16px;
+  max-width: 80%;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}

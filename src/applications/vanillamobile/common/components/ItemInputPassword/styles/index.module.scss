@@ -1,0 +1,13 @@
+@import "applications/vanillamobile/scss/vanillamobilestyle.module.scss";
+
+.item-input-password-icon {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  i,
+  svg {
+    color: $inputs-input-default-arrow;
+    font-size: 18px;
+  }
+}

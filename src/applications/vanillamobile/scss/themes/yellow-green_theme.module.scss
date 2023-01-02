@@ -1,0 +1,443 @@
+//!standart
+$black: #000000;
+$white: #ffffff;
+
+//? yellow green
+$yg-blue: #2c333a;
+$yg-yellow: #f2d109;
+$yg-green: #226b00;
+$yg-wheat: #fcf4c4;
+$yg-wheat-light: #fdfae7;
+$yg-black: #212121;
+$yg-light-red: #a90202;
+$yg-grey-light: #e1e1e1;
+$yg-grey: #eeeeee;
+$yg-light-grey: #e0e0e0;
+$yg-grey-moon: #cccccc;
+$yg-grey-lighter: #aaaaaa;
+$yg-transparent-0: rgba(0, 0, 0, 0.02);
+$yg-transparent-100: rgba(0, 0, 0, 0.08);
+$yg-transparent-full: rgba(0, 0, 0, 0.12);
+$yg-translusent-20: rgba(0, 0, 0, 0.24);
+$yg-transparent-half: rgba(0, 0, 0, 0.54);
+$yg-transparent-dark: rgba(0, 0, 0, 0.87);
+$yg-white-transparent-16: rgba(255, 255, 255, 0.16);
+$yg-white-transparent-full: rgba(255, 255, 255, 0.12);
+$yg-white-transparent-half: rgba(255, 255, 255, 0.54);
+$yg-transparent-light: rgba(255, 255, 255, 0.87);
+//*fonts
+$font-family-primary: "Roboto", sans-serif;
+
+//*active item
+$color-active: $yg-yellow;
+
+$range-bg: $yg-light-grey;
+$range-fill-in: $yg-green;
+$range-circle: $yg-yellow;
+$range-circle-border: $yg-wheat;
+
+//*header
+$header-bgc: $yg-green;
+
+$arrow-active-bg: $yg-white-transparent-full;
+$arrow-active-dark-bg: $yg-transparent-full;
+//todo overlays
+
+//*burger
+
+$hamburger-icon-color: $yg-yellow;
+$burger-title-color: $black;
+$burger-title-bg: $yg-yellow;
+$burger-items-icon-color: $yg-transparent-half;
+$burger-items-arrow: $yg-transparent-half;
+$burger-items-numbers-color: $yg-transparent-dark;
+$burger-item1-color: $black;
+$burger-item1-even-bg: $white;
+$burger-item1-odd-bg: #f5f5f5;
+$burger-item1-numbers-bg: $yg-transparent-full;
+$burger-item3-color: $black;
+$burger-item3-bg: #e0e0e0;
+$burger-item3-numbers-bg: $yg-transparent-100;
+$burger-item4-color: $yg-transparent-dark;
+$burger-item4-bg: #e5e5e5;
+$burger-item4-numbers-bg: $yg-transparent-100;
+$burger-item4-active-color: $yg-transparent-light;
+$burger-item4-active-bg: $yg-green;
+$burger-item4-active-numbers-color: $black;
+$burger-item4-active-numbers-bg: $yg-transparent-light;
+
+//*login
+
+$login-user-icon: $yg-yellow;
+$login-bg: $white;
+$login-title-color: $black;
+$login-input-color: $black;
+$login-input-border: $yg-grey;
+$login-input-bg: $yg-grey;
+$login-forgot-color: $yg-green;
+$login-remember-color: $yg-transparent-half;
+$login-checkbox-bg: $yg-wheat-light;
+$login-checkbox-border: $yg-white-transparent-full;
+$login-checkbox-checked-bg: $yg-yellow;
+$login-checkbox-checked-icon: $black;
+$login-button-color: $black;
+$login-button-bg: $yg-yellow;
+$login-create-color: $yg-green;
+$login-settings-hidden-text-color: $yg-transparent-half;
+$login-settings-item-arrow: $yg-transparent-half;
+$login-settings-item-icon-color: $yg-yellow;
+$login-settings-item-icon-bg: $yg-green;
+$login-settings-item-color: $black;
+$login-settings-item-border: $yg-yellow;
+$login-settings-item-bg: $white;
+$login-settings-seconds: $black;
+$login-settings-submenu-bg: $white;
+$login-settings-subitem-color: $yg-green;
+$login-settings-subitem-active-color: $yg-green;
+$login-settings-subitem-active-bg: $yg-wheat;
+$login-settings-subitem-icon: $yg-green;
+$login-balance-bg: $yg-yellow;
+$login-balance-icon: $black;
+$login-balance-title: $black;
+$login-balance-money: $black;
+$login-menu-item-color: $black;
+$login-menu-item-icon: $yg-transparent-half;
+$login-menu-item-border: $yg-transparent-full;
+//*navigation
+
+//? buttons
+$nav-buttons-color: $black;
+$nav-buttons-bg: $yg-wheat;
+$nav-buttons-border: $yg-transparent-full;
+$nav-buttons-color-active: $yg-wheat-light;
+$nav-buttons-bg-active: $yg-green;
+$nav-buttons-border-active: $yg-green;
+$nav-black-button-border: $yg-yellow;
+//? slider
+$slider-item-active-border: $yg-yellow;
+$slider-icon-active-color: $yg-yellow;
+
+//TODO overlays
+
+//*main
+$main-bg: $white;
+$main-outright-bg: $white;
+
+//! Screen 1.4
+$bets-title: $black;
+
+$bet-bg: $yg-wheat-light;
+$bet-header-bg: $yg-wheat;
+$bet-header-bg2: $yg-yellow;
+$bet-header-color: $black;
+$bet-header-numbers-bg: $yg-yellow;
+$bet-header-id-color: $white;
+$bet-header-id-bg: $yg-green;
+$bet-header-date-color: $black;
+$bet-item-team-color: $black;
+$bet-item-team-hidden-color: $yg-transparent-half;
+$bet-item-bg: $white;
+$bet-item-border: $yg-yellow;
+$bet-item-coeficient-name: $yg-green;
+$bet-item-coeficient-number: $black;
+$bet-item-coeficient-hide-number: $yg-transparent-half;
+$bet-item-coeficient-hide-number-active: $yg-transparent-light;
+$bet-item-active-bg: $yg-green;
+$bet-item-active-border: $yg-green;
+$bet-item-active-color: $yg-wheat-light;
+$bet-icon-color: $yg-green;
+$bet-icon-bg: $white;
+$bet-icon-border: $yg-green;
+$bet-icon-active-color: $yg-wheat-light;
+$bet-icon-active-bg: $yg-green;
+$bet-icon-active-border: $yg-green;
+
+$bet-score-color: $black;
+$bet-score-bg: $yg-wheat-light;
+$bet-score-border: $yg-wheat;
+$bet-score-border-center: $yg-white-transparent-full;
+$bet-score-count: $yg-green;
+
+$bet-popup-bg: $white;
+$bet-popup-text-color: $black;
+$bet-popup-buttons-color: $white;
+$bet-popup-buttons-bg: $yg-green;
+//!spoiler
+
+$spoiler-color: $black;
+$spoiler-icon: $yg-transparent-half;
+$spoiler-bg: $yg-wheat;
+$spoiler-special-bg: $yg-wheat;
+$spoiler-live-bg: $white;
+$spoiler-border: $yg-transparent-full;
+
+$spoiler-list-bg: $yg-wheat-light;
+$arrow-bg: $yg-transparent-half;
+
+$footer-bg: $yg-black;
+$footer-icon-text: $white;
+$footer-icon-color: $yg-white-transparent-half;
+$footer-icon-circle-color: $black;
+$footer-icon-circle-bg: $yg-yellow;
+$footer-icon-circle-border: $yg-yellow;
+$footer-icon-active-color: $white;
+$footer-icon-active-border: $yg-yellow;
+$footer-icon-active-bg: $yg-white-transparent-full;
+$footer-money-color: $white;
+$footer-arrow: $yg-white-transparent-half;
+$footer-arrow-active: $yg-yellow;
+$footer-arrow-active-bg: $yg-white-transparent-full;
+$arrow-active-bg: $yg-white-transparent-full;
+$betslip-bg: $white;
+$betslip-navigation-border-bottom: $yg-green;
+$betslip-navigation-item-color: $black;
+$betslip-navigation-item-bg: $yg-wheat-light;
+$betslip-navigation-item-border: $yg-white-transparent-half;
+$betslip-navigation-item-active-color: $white;
+$betslip-navigation-item-active-bg: $yg-green;
+$betslip-navigation-item-active-border: $yg-green;
+
+$betslip-notification-top-color: $white;
+$betslip-notification-bottom-color: $white;
+$betslip-notification-bg: $yg-green;
+
+$betslip-card-color: $black;
+$betslip-card-border: $yg-green;
+$betslip-card-bg: $white;
+$betslip-card-header-color: $white;
+$betslip-card-header-bg: $yg-green;
+$betslip-card-header-cross: $yg-white-transparent-half;
+$betslip-card-header-numbers-color: $white;
+$betslip-card-header-numbers-bg: $yg-blue;
+$betslip-card-content-color: $black;
+$betslip-card-input-max: $yg-green;
+$betslip-card-input-color: $black;
+$betslip-card-input-bg: $white;
+$betslip-card-input-border: $yg-transparent-100;
+$betslip-card-usd: $yg-green;
+
+$betslip-card-disabled-color: $black;
+$betslip-card-disabled-border: $yg-grey-moon;
+$betslip-card-disabled-header-color: $black;
+$betslip-card-disabled-header-bg: $yg-grey-moon;
+$betslip-card-disabled-header-cross: $yg-transparent-half;
+$betslip-card-disabled-header-numbers-color: $black;
+$betslip-card-disabled-header-numbers-bg: $yg-grey-lighter;
+$betslip-card-disabled-content-color: $black;
+$betslip-card-disabled-content-bg: $yg-wheat-light;
+$betslip-card-disabled-input-color: $yg-transparent-half;
+$betslip-card-disabled-input-bg: $yg-white-transparent-full;
+$betslip-card-disabled-input-border: $yg-transparent-half;
+$betslip-card-disabled-usd: $black;
+
+$betslip-bottom-remove-all: $yg-green;
+$betslip-bottom-border: $yg-transparent-100;
+$betslip-bottom-text1: $black;
+$betslip-bottom-text2: $yg-green;
+$betslip-bottom-button-color: $black;
+$betslip-bottom-button-bg: $yg-yellow;
+$betslip-bottom-submit-color: $white;
+$betslip-bottom-submit-bg: $yg-green;
+
+$mybets-bg: $white;
+$mybets-card-color: $black;
+$mybets-card-bg: $white;
+$mybets-card-border: $yg-green;
+$mybets-card-header-bg: $yg-green;
+$mybets-card-header-color: $white;
+$mybets-card-content-border: $yg-transparent-100;
+$mybets-card-content-icon: $yg-transparent-half;
+$mybets-card-content-profit: $yg-light-red;
+$mybets-card-content-percent: $yg-transparent-half;
+$mybets-card-button-color: $black;
+$mybets-card-button-bg: $yg-yellow;
+
+$phone-bg: $white;
+$phone-text-color: $black;
+$phone-title: $black;
+$phone-cross: $yg-transparent-half;
+$phone-border: $yg-transparent-full;
+$phone-input-color: $black;
+$phone-input-bg: $yg-grey;
+$phone-input-border: $yg-transparent-full;
+$phone-input-arrow: $yg-transparent-half;
+$phone-input-button-color: $yg-green;
+$phone-input-button-border: $yg-green;
+$phone-input-button-bg: transparent;
+$phone-calculator-bg: $yg-wheat;
+$phone-calculator-border: $yg-green;
+$phone-text-highlighted: $yg-green;
+$phone-number-highlited-color: $white;
+$phone-number-highlited-bg: $yg-green;
+$phone-button-color: $black;
+$phone-button-bg: $white;
+$phone-button-border: $yg-yellow;
+$phone-button-active-color: $yg-wheat-light;
+$phone-button-active-bg: $yg-green;
+$phone-button-active-border: $yg-green;
+$phone-submit-color: $yg-wheat-light;
+$phone-submit-bg: $yg-green;
+
+$vs-color: $black;
+$vs-bg: $yg-wheat-light;
+$vs-title: $yg-wheat-light;
+$vs-cross: $yg-white-transparent-half;
+$vs-time-color: $black;
+$vs-time-bg: $yg-yellow;
+$vs-item-color: $black;
+$vs-item-hidden-color: $yg-transparent-half;
+$vs-item-bg: $yg-wheat;
+$vs-item-arrow: $arrow-bg;
+$vs-item-border: $yg-transparent-half;
+
+$vs-submenu-color: $black;
+$vs-submenu-bg: $white;
+$vs-submenu-heading-color: $black;
+$vs-submenu-heading-bg: $yg-wheat-light;
+$vs-submenu-heading-border: $yg-grey-moon;
+$vs-submenu-numbers-color: $black;
+$vs-submenu-numbers-bg: $yg-yellow;
+$vs-submenu-numbers-border: $yg-transparent-full;
+
+$virtual-match-header-border: rgba(242, 209, 9, 0.34);
+$virtual-match-header-headings: $black;
+$virtual-match-bg: $white;
+$virtual-match-border: $yg-grey-moon;
+$virtual-match-number: $yg-transparent-half;
+$virtual-match-title: $yg-green;
+$virtual-match-label: $yg-transparent-half;
+
+$calculator-top-bg: $yg-yellow;
+$calculator-top-title: $black;
+$calculator-top-subtitle: $yg-transparent-half;
+$calculator-top-arrow: $yg-transparent-half;
+$calculator-top-active-bg: $yg-wheat;
+$calculator-top-active-title: $yg-green;
+$calculator-top-active-subtitle: $yg-transparent-half;
+$calculator-top-active-arrow: $yg-transparent-half;
+$calculator-open-bg: $white;
+$calculator-item-bg: $white;
+$calculator-item-color: $black;
+$calculator-item-border: $yg-wheat;
+$calculator-item-header-bg: $yg-wheat;
+$calculator-item-text-highlighted: $yg-green;
+$calculator-item-input-color: $black;
+$calculator-item-input-bg: $white;
+$calculator-item-input-border: $yg-transparent-full;
+
+$live-page-bg: $white;
+
+$special-bg: $main-bg;
+$jackpot-id-color: $white;
+$jackpot-id-bg: $yg-green;
+$jackpot-usd: $yg-yellow;
+$jackpot-inner-bg: $main-bg;
+
+$statements-nav-item-color: $black;
+$statements-nav-item-bg: $white;
+$statements-nav-item-border: $yg-green;
+$statements-nav-icon-color: $white;
+$statements-nav-icon-bg: $yg-green;
+
+$statements-nav-item-active-color: $white;
+$statements-nav-item-active-bg: $yg-green;
+$statements-nav-item-active-border: $yg-green;
+
+$statements-item-bg: $white;
+$statements-item-color: $black;
+$statements-item-border: $yg-wheat;
+$statements-item-header-bg: $yg-wheat;
+$statements-item-text-highlighted: $yg-green;
+$statements-item-date-color: $black;
+$statements-item-date-bg: $yg-light-grey;
+
+$bets-calendar-color: $black;
+$bets-calendar-bg: $yg-yellow;
+$bets-calendar-arrows: $black;
+$bets-selection-color: $yg-transparent-half;
+$bets-selection-bg: $yg-wheat;
+$bets-selection-border: $yg-yellow;
+
+$inputs-title-color: $black;
+$inputs-title-bg: $yg-yellow;
+$inputs-label-color: $black;
+$inputs-body-bg: $yg-wheat;
+$inputs-body-border: $yg-yellow;
+$inputs-input-title: $black;
+$inputs-input-hide-title: $yg-transparent-half;
+$inputs-input-icon: $yg-light-red;
+$inputs-input-default-color: $yg-transparent-half;
+$inputs-input-default-placeholder: $yg-transparent-half;
+$inputs-input-default-bg: rgba(242, 209, 9, 0.12);
+$inputs-input-default-border: rgba(242, 209, 9, 0.2);
+$inputs-input-default-arrow: $yg-transparent-half;
+$inputs-input-default-arrow-bg: $inputs-input-default-bg;
+
+$inputs-input-special-color: $black;
+$inputs-input-special-placeholder: $black;
+$inputs-input-special-bg: $white;
+$inputs-input-special-border: $yg-yellow;
+$inputs-input-special-arrow: $yg-transparent-half;
+$inputs-input-special-arrow-bg: $inputs-input-special-bg;
+$inputs-button-color: $white;
+$inputs-button-bg: $yg-green;
+
+$bet-calculator-bg: $yg-wheat;
+$bet-calculator-border: $yg-yellow;
+$bet-calculator-borders: $yg-yellow;
+$bet-calculator-label: $black;
+$bet-calculator-text: $yg-transparent-dark;
+$bet-calculator-titles: $yg-transparent-half;
+$bet-calculator-numbers: $yg-transparent-half;
+$bet-calculator-input-color: $black;
+$bet-calculator-input-border: $yg-transparent-full;
+$bet-calculator-input-bg: $white;
+$bet-calculator-input-arrow: $yg-transparent-half;
+$bet-calculator-input-icon-color: $white;
+$bet-calculator-input-icon-bg: $yg-green;
+$bet-calculator-input-icon-border: $yg-green;
+$bet-calculator-input-cross: $yg-green;
+$bet-calculator-input-disabled-color: $yg-transparent-half;
+$bet-calculator-input-disabled-bg: $yg-grey-moon;
+$bet-calculator-input-disabled-border: $yg-grey-moon;
+$bet-calculator-checkbox-bg: $white;
+$bet-calculator-checkbox-border: $black;
+$bet-calculator-checkbox-active-color: $black;
+$bet-calculator-text-highlighted: $yg-green;
+
+$search-header-loupe: $yg-yellow;
+$search-title: $black;
+$search-subtitle: $yg-transparent-half;
+$search-icon-full: $yg-translusent-20;
+$search-icon-translucent: $yg-transparent-full;
+$search-icon-transparent: $yg-transparent-0;
+
+$search-big-loupe: $yg-yellow;
+$search-big-icon: $yg-green;
+
+$casino-item-active-bg: linear-gradient(135deg, #226b00 0%, #226b00 100%);
+
+//*results
+$results-navigation-button-color: $black;
+$results-navigation-button-border: $yg-transparent-full;
+$results-navigation-button-bg: $white;
+$results-navigation-button-active-color: $white;
+$results-navigation-button-active-border: $yg-green;
+$results-navigation-button-active-bg: $yg-green;
+
+$results-bg: $white;
+$results-dropdown-color: $black;
+$results-dropdown-border: $yg-yellow;
+$results-dropdown-background: $white;
+$results-dropdown-arrow-color: $yg-transparent-half;
+$results-dropdown-icon-color: $yg-green;
+
+$results-item-header-score-color: $black;
+$results-item-header-score-border: #dfc108;
+$results-item-header-score-bg: $yg-yellow;
+
+$results-item-labels-color: $yg-transparent-half;
+
+$results-item-counts-border-bottom: $yg-grey-moon;
+$results-item-count-color: $black;
+$results-item-count-color-highlighted: $yg-green;

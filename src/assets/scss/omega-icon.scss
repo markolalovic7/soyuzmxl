@@ -1,0 +1,349 @@
+@font-face {
+  font-family: "OmegaIcons";
+  src: url("../fonts/OmegaIcons.eot?5dtbkv");
+  src: url("../fonts/OmegaIcons.eot?5dtbkv#iefix") format("embedded-opentype"),
+  url("../fonts/OmegaIcons.ttf?5dtbkv") format("truetype"), url("../fonts/OmegaIcons.woff?5dtbkv") format("woff"),
+  url("../fonts/OmegaIcons.svg?5dtbkv#OmegaIcons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="qicon-"],
+[class*="qicon-"] {
+  //Note - icomoon gives us *=" qicon-" --> we need to remove that first space!
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "OmegaIcons" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Hack - missing specials icon
+.qicon-spec:before {
+  content: "\e9d9";
+}
+
+// end Hack
+
+.qicon-mma:before {
+  content: "\e914";
+}
+
+.qicon-stock:before {
+  content: "\e915";
+}
+
+.qicon-statistics-1 .path1:before {
+  content: "\e903";
+  color: rgb(0, 0, 0);
+}
+
+.qicon-statistics-1 .path2:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.qicon-statistics-1 .path3:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.qicon-statistics-1 .path4:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.qicon-statistics-1 .path5:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.qicon-statistics:before {
+  content: "\e908";
+}
+
+.qicon-icondot:before {
+  content: "\e909";
+}
+
+.qicon-gaming .path1:before {
+  content: "\e90a";
+  color: rgb(0, 0, 0);
+}
+
+.qicon-gaming .path2:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.qicon-live_betting .path1:before {
+  content: "\e90c";
+  color: rgb(0, 0, 0);
+}
+
+.qicon-live_betting .path2:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.qicon-live_betting .path3:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.qicon-live_betting .path4:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.qicon-live_betting .path5:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.qicon-slip:before {
+  content: "\e911";
+  color: #4e454a;
+}
+
+.qicon-sports .path1:before {
+  content: "\e912";
+  color: rgb(0, 0, 0);
+}
+
+.qicon-sports .path2:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.qicon-send:before {
+  content: "\e902";
+}
+
+.qicon-brush:before {
+  content: "\e900";
+}
+
+.qicon-remove_red_eye:before {
+  content: "\e901";
+}
+
+.qicon-visibility:before {
+  content: "\e901";
+}
+.qicon-default:before {
+  content: "\41";
+}
+.qicon-bowl:before {
+  content: "\42";
+}
+.qicon-mosp:before {
+  content: "\43";
+}
+.qicon-wate:before {
+  content: "\44";
+}
+.qicon-leag:before {
+  content: "\45";
+}
+.qicon-over:before {
+  content: "\46";
+}
+.qicon-rugu:before {
+  content: "\47";
+}
+.qicon-skii:before {
+  content: "\48";
+}
+.qicon-snoo:before {
+  content: "\49";
+}
+.qicon-star:before {
+  content: "\4a";
+}
+.qicon-tabl:before {
+  content: "\4b";
+}
+.qicon-tenn:before {
+  content: "\4c";
+}
+.qicon-voll:before {
+  content: "\4d";
+}
+.qicon-cric:before {
+  content: "\4e";
+}
+.qicon-cycl:before {
+  content: "\4f";
+}
+.qicon-dart:before {
+  content: "\50";
+}
+.qicon-hand:before {
+  content: "\51";
+}
+.qicon-dota:before {
+  content: "\52";
+}
+.qicon-floo:before {
+  content: "\53";
+}
+.qicon-foot:before {
+  content: "\54";
+}
+.qicon-golf:before {
+  content: "\55";
+}
+.qicon-iceh:before {
+  content: "\56";
+}
+.qicon-coun:before {
+  content: "\57";
+}
+.qicon-boxi:before {
+  content: "\58";
+}
+.qicon-bevo:before {
+  content: "\59";
+}
+.qicon-bask:before {
+  content: "\5a";
+}
+.qicon-base:before {
+  content: "\61";
+}
+.qicon-badm:before {
+  content: "\62";
+}
+.qicon-aurl:before {
+  content: "\63";
+}
+.qicon-arch:before {
+  content: "\64";
+}
+.qicon-amfb:before {
+  content: "\65";
+}
+.qicon-futs:before {
+  content: "\66";
+}
+.qicon-match-tracker:before {
+  content: "\67";
+}
+.qicon-squa:before {
+  content: "\68";
+}
+.qicon-sms-bet:before {
+  content: "\69";
+}
+.qicon-stats:before {
+  content: "\6a";
+}
+.qicon-price-format:before {
+  content: "\6b";
+}
+.qicon-band:before {
+  content: "\6c";
+}
+.qicon-beac:before {
+  content: "\6d";
+}
+.qicon-video-camera:before {
+  content: "\6e";
+}
+.qicon-cashout:before {
+  content: "\6f";
+}
+.qicon-call:before {
+  content: "\70";
+}
+.qicon-fiel:before {
+  content: "\71";
+}
+.qicon-account-login:before {
+  content: "\72";
+}
+.qicon-account-logged-in:before {
+  content: "\73";
+}
+.qicon-user:before {
+  content: "\74";
+}
+.qicon-deposit:before {
+  content: "\75";
+}
+.qicon-edit-profile:before {
+  content: "\76";
+}
+.qicon-shield-guard:before {
+  content: "\77";
+}
+.qicon-sign-out:before {
+  content: "\78";
+}
+.qicon-paint-board:before {
+  content: "\79";
+}
+.qicon-money:before {
+  content: "\7a";
+}
+.qicon-withdraw:before {
+  content: "\30";
+}
+.qicon-refresh:before {
+  content: "\31";
+}
+.qicon-search:before {
+  content: "\32";
+}
+.qicon-times-circle:before {
+  content: "\33";
+}
+.qicon-event-detail:before {
+  content: "\34";
+}
+.qicon-rugb:before {
+  content: "\35";
+}
+
+.qicon-bet:before {
+  content: "\36";
+}
+
+.qicon-flash:before {
+  content: "\37";
+}
+
+.qicon-arrow-up-down:before {
+  content: "\38";
+}
+
+.qicon-mobile:before {
+  content: "\e958";
+}
+
+.qicon-star-empty:before {
+  content: "\e9d7";
+}
+
+.qicon-star-full:before {
+  content: "\e9d9";
+}

@@ -1,0 +1,63 @@
+@import "applications/vanillamobile/scss/vanillamobilestyle.module.scss";
+
+.time-picker {
+  &-icon {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  &-items {
+    background: $vs-item-bg;
+    border: 1px solid $vs-item-border;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 12%);
+    display: flex;
+    flex-direction: column;
+    max-height: 200px;
+    left: 0;
+    overflow-y: scroll;
+    padding: 2px 0px;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+  }
+
+  &-item {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 0;
+    font-size: 12px;
+    flex-shrink: 0;
+    line-height: 18px;
+    overflow: hidden;
+    padding: 4px 16px;
+    width: 100%;
+  }
+
+  &-value {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 0px 2px;
+    width: 100%;
+  }
+
+  &-wrapper {
+    align-items: center;
+    background: $vs-item-bg;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: $vs-color;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 18px;
+    height: 30px;
+    margin: 0 5px;
+    padding: 4px 16px;
+    position: relative;
+    width: 100%;
+  }
+}

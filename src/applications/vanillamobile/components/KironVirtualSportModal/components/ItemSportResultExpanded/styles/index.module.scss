@@ -1,0 +1,108 @@
+@import "applications/vanillamobile/scss/vanillamobilestyle.module.scss";
+
+.item-sport-result-expanded {
+  &-cards {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+
+    &:last-child {
+      margin-bottom: 0px;
+    }
+
+    .card-wrapper {
+      display: flex;
+      font-size: 16px;
+      font-weight: 700;
+      width: 100%;
+    }
+
+    .card-numbers {
+      display: flex;
+    }
+
+    .card-number {
+      background: $vs-submenu-numbers-bg;
+      border-top: 1px solid $vs-submenu-numbers-border;
+      border-left: 1px solid $vs-submenu-numbers-border;
+      color: $vs-submenu-numbers-color;
+      width: 60px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      overflow: hidden;
+      padding: 10px 2px;
+      text-align: center;
+      white-space: nowrap;
+
+      &:last-child {
+        border-right: 1px solid $vs-submenu-numbers-border;
+      }
+
+      span {
+        display: inline-block;
+        margin: 0 0 3px;
+
+        &:last-child {
+          margin: 0;
+        }
+      }
+    }
+
+    .card-place {
+      align-items: center;
+      border-top: 1px solid $vs-submenu-heading-border;
+      color: $vs-color;
+      display: flex;
+      justify-content: space-evenly;
+      font-size: 16px;
+      min-width: 70px;
+      padding: 10px 2px;
+    }
+
+    .card-title {
+      background: $vs-submenu-heading-bg;
+      border-top: 1px solid $vs-submenu-heading-border;
+      color: $vs-submenu-heading-color;
+      flex: 1 1 auto;
+      overflow: hidden;
+      padding: 10px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+
+  &-score {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+
+    span {
+      min-width: 60px;
+      text-align: center;
+    }
+  }
+
+  &-paragraphs {
+    padding: 0 10px;
+    margin: 10px 0;
+
+    p {
+      font-size: 16px;
+      line-height: 18px;
+      margin: 5px 0;
+    }
+  }
+
+  &-wrapper {
+    background: $vs-submenu-bg;
+    padding-top: 10px;
+  }
+}
+
+.text-bold {
+  font-weight: 700;
+  margin: 0 5px;
+}

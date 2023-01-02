@@ -1,0 +1,2 @@
+export const SPORT_BAR_TAB_LEAGUE = "PANEL_LEAGUE";
+export const SPORT_BAR_TAB_SPORT = "SPORT_BAR_TAB_SPORT";

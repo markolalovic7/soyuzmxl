@@ -1,0 +1,146 @@
+@import "applications/vanillamobile/scss/vanillamobilestyle.module.scss";
+
+.modal-kvirtual {
+  &-body {
+    background: $vs-item-bg;
+    color: $vs-color;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 100%;
+  }
+
+  &-navbar {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    max-height: 92px;
+    position: relative;
+
+    &-buttons {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      max-width: 300px;
+      width: 100%;
+      z-index: 2;
+    }
+
+    &-img {
+      background: url("../../../img/background/popup-img.png") 100% / cover no-repeat;
+      height: 100%;
+      left: 0;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      z-index: 1;
+      width: 100%;
+
+      &:before {
+        background: rgba(0, 0, 0, 0.62);
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+    }
+
+    h3 {
+      color: $white;
+      font-size: 16px;
+      font-weight: 700;
+      padding: 15px;
+      text-transform: uppercase;
+      z-index: 2;
+    }
+  }
+
+  &-wrapper {
+    background: $vs-submenu-heading-bg;
+    box-shadow: 0 0 3px 2px rgb(0 0 0 / 15%);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    max-height: 80%;
+    min-height: 0; /* for Firefox */
+    overflow-y: hidden;
+  }
+}
+
+.icon-close {
+  display: inline-block;
+  height: 16px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 16px;
+  z-index: 2;
+
+  &:before,
+  &:after {
+    background: $vs-cross;
+    content: "";
+    height: 16px;
+    width: 2px;
+    position: absolute;
+    top: 0;
+    right: 7px;
+  }
+
+  &:before {
+    transform: rotate(45deg);
+  }
+
+  &:after {
+    transform: rotate(-45deg);
+  }
+}
+
+.icon-arrow {
+  display: inline-block;
+  height: 8px;
+  margin: 0 10px 0 0;
+  position: relative;
+  width: 12px;
+
+  &::before,
+  &::after {
+    background: $arrow-bg;
+    content: "";
+    display: inline-block;
+    height: 7px;
+    position: absolute;
+    width: 2px;
+  }
+
+  &::before {
+    left: 3px;
+    top: 0;
+    transform: rotate(-45deg);
+  }
+
+  &::after {
+    right: 3px;
+    top: 0;
+    transform: rotate(45deg);
+  }
+
+  &.active {
+    &::before {
+      transform: rotate(45deg);
+    }
+  }
+
+  &.active {
+    &::after {
+      transform: rotate(-45deg);
+    }
+  }
+}

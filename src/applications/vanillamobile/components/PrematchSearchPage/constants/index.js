@@ -1,0 +1,2 @@
+export const PREMATCH_EVENT_TYPE_RANK = "RANK";
+export const PREMATCH_EVENT_TYPE_GAME = "GAME";

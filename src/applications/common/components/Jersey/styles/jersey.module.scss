@@ -1,0 +1,28 @@
+.jersey {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  margin: 0 auto;
+
+  &__item {
+    width: 100%;
+    position: relative;
+  }
+
+  &__number {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    color: #000000;
+    font-size: 15px;
+    font-weight: 700;
+    user-select: none;
+    pointer-events: none;
+
+    &_red {
+      color: #e60000;
+    }
+  }
+}

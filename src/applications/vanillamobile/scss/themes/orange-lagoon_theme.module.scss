@@ -1,0 +1,445 @@
+//!standart
+$black: #000000;
+$white: #ffffff;
+
+//? lucky red
+$ol-wheat-airy: #fff4ed;
+$ol-wheat-lighter: #ffe8d2;
+$ol-blue: #003884;
+$ol-orange: #ff9f3e;
+$ol-blue-light: #437cd6;
+$ol-wheat: #ffe8d1;
+$ol-wheat-light: #fff2e7;
+$ol-black: #212121;
+$ol-light-red: #a90202;
+$ol-grey: #eeeeee;
+$ol-light-grey: #e0e0e0;
+$ol-grey-moon: #cccccc;
+$ol-grey-lighter: #aaaaaa;
+$ol-transparent-0: rgba(0, 0, 0, 0.02);
+$ol-transparent-100: rgba(0, 0, 0, 0.08);
+$ol-transparent-full: rgba(0, 0, 0, 0.12);
+$ol-translusent-20: rgba(0, 0, 0, 0.24);
+$ol-transparent-half: rgba(0, 0, 0, 0.54);
+$ol-transparent-dark: rgba(0, 0, 0, 0.87);
+$ol-white-transparent-16: rgba(255, 255, 255, 0.16);
+$ol-white-transparent-full: rgba(255, 255, 255, 0.12);
+$ol-white-transparent-half: rgba(255, 255, 255, 0.54);
+$ol-transparent-light: rgba(255, 255, 255, 0.87);
+//*fonts
+$font-family-primary: "Roboto", sans-serif;
+
+//*active item
+$color-active: $ol-orange;
+
+$range-bg: $ol-light-grey;
+$range-fill-in: $ol-blue;
+$range-circle: $ol-wheat;
+$range-circle-border: $ol-orange;
+
+//*header
+$header-bgc: $ol-blue;
+
+$arrow-active-bg: $ol-white-transparent-full;
+$arrow-active-dark-bg: $ol-transparent-full;
+//todo overlays
+
+//*burger
+
+$hamburger-icon-color: $ol-orange;
+$burger-title-color: $black;
+$burger-title-bg: $ol-orange;
+$burger-items-icon-color: $ol-transparent-half;
+$burger-items-arrow: $ol-transparent-half;
+$burger-items-numbers-color: $ol-transparent-dark;
+$burger-item1-color: $black;
+$burger-item1-even-bg: $white;
+$burger-item1-odd-bg: #f5f5f5;
+$burger-item1-numbers-bg: $ol-white-transparent-full;
+$burger-item3-color: $black;
+$burger-item3-bg: #e0e0e0;
+$burger-item3-numbers-bg: $ol-transparent-100;
+$burger-item4-color: $ol-transparent-dark;
+$burger-item4-bg: #e5e5e5;
+$burger-item4-numbers-bg: $ol-transparent-100;
+$burger-item4-active-color: $ol-transparent-light;
+$burger-item4-active-bg: $ol-blue;
+$burger-item4-active-numbers-color: $black;
+$burger-item4-active-numbers-bg: $ol-transparent-light;
+
+//*login
+
+$login-user-icon: $ol-orange;
+$login-bg: $white;
+$login-title-color: $black;
+$login-input-color: $black;
+$login-input-border: $ol-grey;
+$login-input-bg: $ol-grey;
+$login-forgot-color: $ol-blue;
+$login-remember-color: $ol-transparent-half;
+$login-checkbox-bg: $white;
+$login-checkbox-border: $ol-orange;
+$login-checkbox-checked-bg: $ol-orange;
+$login-checkbox-checked-icon: $black;
+$login-button-color: $black;
+$login-button-bg: $ol-orange;
+$login-create-color: $ol-blue;
+$login-settings-hidden-text-color: $ol-transparent-half;
+$login-settings-item-arrow: $ol-transparent-half;
+$login-settings-item-icon-color: $ol-orange;
+$login-settings-item-icon-bg: $ol-blue;
+$login-settings-item-color: $black;
+$login-settings-item-border: $ol-orange;
+$login-settings-item-bg: $white;
+$login-settings-seconds: $black;
+$login-settings-submenu-bg: $white;
+$login-settings-subitem-color: $ol-blue;
+$login-settings-subitem-active-color: $ol-blue;
+$login-settings-subitem-active-bg: $ol-wheat;
+$login-settings-subitem-icon: $ol-blue;
+$login-balance-bg: $ol-orange;
+$login-balance-icon: $black;
+$login-balance-title: $black;
+$login-balance-money: $black;
+$login-menu-item-color: $black;
+$login-menu-item-icon: $ol-transparent-half;
+$login-menu-item-border: $ol-transparent-full;
+//*navigation
+
+//? buttons
+$nav-buttons-color: $black;
+$nav-buttons-bg: $ol-wheat;
+$nav-buttons-border: $ol-transparent-full;
+$nav-buttons-color-active: $white;
+$nav-buttons-bg-active: $ol-blue-light;
+$nav-buttons-border-active: $ol-blue-light;
+$nav-black-button-border: $ol-orange;
+//? slider
+$slider-item-active-border: $ol-orange;
+$slider-icon-active-color: $ol-orange;
+
+//TODO overlays
+
+//*main
+$main-bg: $white;
+$main-outright-bg: $white;
+
+//! Screen 1.4
+$bets-title: $black;
+
+$bet-bg: $ol-wheat-light;
+$bet-header-bg: $ol-wheat;
+$bet-header-bg2: $ol-orange;
+$bet-header-color: $black;
+$bet-header-numbers-bg: $ol-orange;
+$bet-header-id-color: $white;
+$bet-header-id-bg: $ol-blue;
+$bet-header-date-color: $black;
+$bet-item-team-color: $black;
+$bet-item-team-hidden-color: $ol-transparent-half;
+$bet-item-bg: $white;
+$bet-item-border: $ol-orange;
+$bet-item-coeficient-name: $ol-blue;
+$bet-item-coeficient-number: $black;
+$bet-item-coeficient-hide-number: $ol-transparent-half;
+$bet-item-coeficient-hide-number-active: $ol-transparent-light;
+$bet-item-active-bg: $ol-blue-light;
+$bet-item-active-border: $ol-blue-light;
+$bet-item-active-color: $white;
+$bet-icon-color: $ol-blue;
+$bet-icon-bg: $white;
+$bet-icon-border: $ol-blue;
+$bet-icon-active-color: $white;
+$bet-icon-active-bg: $ol-blue-light;
+$bet-icon-active-border: $ol-blue-light;
+
+$bet-score-color: $black;
+$bet-score-bg: $white;
+$bet-score-border: $ol-orange;
+$bet-score-border-center: $ol-transparent-full;
+$bet-score-count: $ol-blue;
+
+$bet-popup-bg: $white;
+$bet-popup-text-color: $black;
+$bet-popup-buttons-color: $white;
+$bet-popup-buttons-bg: $ol-blue;
+
+//!spoiler
+
+$spoiler-color: $black;
+$spoiler-icon: $ol-transparent-half;
+$spoiler-bg: $ol-wheat;
+$spoiler-special-bg: $ol-wheat;
+$spoiler-live-bg: $white;
+$spoiler-border: $ol-transparent-full;
+
+$spoiler-list-bg: $white;
+$arrow-bg: $ol-transparent-half;
+
+$footer-bg: $ol-black;
+$footer-icon-text: $white;
+$footer-icon-color: $ol-white-transparent-half;
+$footer-icon-circle-color: $black;
+$footer-icon-circle-bg: $ol-orange;
+$footer-icon-circle-border: $ol-orange;
+$footer-icon-active-color: $white;
+$footer-icon-active-border: $ol-orange;
+$footer-icon-active-bg: $ol-white-transparent-full;
+$footer-money-color: $white;
+$footer-arrow: $ol-white-transparent-half;
+$footer-arrow-active: $ol-orange;
+$footer-arrow-active-bg: $ol-white-transparent-full;
+$arrow-active-bg: $ol-white-transparent-full;
+$betslip-bg: $white;
+$betslip-navigation-border-bottom: $ol-blue;
+$betslip-navigation-item-color: $black;
+$betslip-navigation-item-bg: $white;
+$betslip-navigation-item-border: $ol-white-transparent-half;
+$betslip-navigation-item-active-color: $white;
+$betslip-navigation-item-active-bg: $ol-blue;
+$betslip-navigation-item-active-border: $ol-blue;
+
+$betslip-notification-top-color: $white;
+$betslip-notification-bottom-color: $white;
+$betslip-notification-bg: $ol-blue;
+
+$betslip-card-color: $black;
+$betslip-card-border: $ol-orange;
+$betslip-card-bg: $white;
+$betslip-card-header-color: $black;
+$betslip-card-header-bg: $ol-orange;
+$betslip-card-header-cross: $ol-transparent-half;
+$betslip-card-header-numbers-color: $white;
+$betslip-card-header-numbers-bg: $ol-transparent-dark;
+$betslip-card-content-color: $black;
+$betslip-card-input-max: $ol-blue;
+$betslip-card-input-color: $black;
+$betslip-card-input-bg: $white;
+$betslip-card-input-border: $ol-transparent-100;
+$betslip-card-usd: $ol-blue;
+
+$betslip-card-disabled-color: $black;
+$betslip-card-disabled-border: $ol-grey-moon;
+$betslip-card-disabled-header-color: $black;
+$betslip-card-disabled-header-bg: $ol-grey-moon;
+$betslip-card-disabled-header-cross: $ol-transparent-half;
+$betslip-card-disabled-header-numbers-color: $black;
+$betslip-card-disabled-header-numbers-bg: $ol-grey-lighter;
+$betslip-card-disabled-content-color: $black;
+$betslip-card-disabled-content-bg: $white;
+$betslip-card-disabled-input-color: $ol-transparent-half;
+$betslip-card-disabled-input-bg: $ol-white-transparent-full;
+$betslip-card-disabled-input-border: $ol-transparent-full;
+$betslip-card-disabled-usd: $black;
+
+$betslip-bottom-remove-all: $ol-blue;
+$betslip-bottom-border: $ol-transparent-100;
+$betslip-bottom-text1: $black;
+$betslip-bottom-text2: $ol-blue;
+$betslip-bottom-button-color: $black;
+$betslip-bottom-button-bg: $ol-orange;
+$betslip-bottom-submit-color: $white;
+$betslip-bottom-submit-bg: $ol-blue;
+
+$mybets-bg: $white;
+$mybets-card-color: $black;
+$mybets-card-bg: $white;
+$mybets-card-border: $ol-blue;
+$mybets-card-header-bg: $ol-blue;
+$mybets-card-header-color: $white;
+$mybets-card-content-border: $ol-transparent-100;
+$mybets-card-content-icon: $ol-transparent-half;
+$mybets-card-content-profit: $ol-light-red;
+$mybets-card-content-percent: $ol-transparent-half;
+$mybets-card-button-color: $black;
+$mybets-card-button-bg: $ol-orange;
+
+$phone-bg: $white;
+$phone-text-color: $black;
+$phone-title: $black;
+$phone-cross: $ol-transparent-half;
+$phone-border: $ol-transparent-full;
+$phone-input-color: $black;
+$phone-input-bg: $ol-grey;
+$phone-input-border: $ol-transparent-full;
+$phone-input-arrow: $ol-transparent-half;
+$phone-input-button-color: $ol-blue;
+$phone-input-button-border: $ol-blue;
+$phone-input-button-bg: transparent;
+$phone-calculator-bg: $ol-wheat-airy;
+$phone-calculator-border: $ol-blue;
+$phone-text-highlighted: $ol-blue;
+$phone-number-highlited-color: $white;
+$phone-number-highlited-bg: $ol-blue;
+$phone-button-color: $black;
+$phone-button-bg: $white;
+$phone-button-border: $ol-orange;
+$phone-button-active-color: $white;
+$phone-button-active-bg: $ol-blue;
+$phone-button-active-border: $ol-blue;
+$phone-submit-color: $white;
+$phone-submit-bg: $ol-blue;
+
+$vs-color: $black;
+$vs-bg: $white;
+$vs-title: $white;
+$vs-cross: $ol-white-transparent-half;
+$vs-time-color: $black;
+$vs-time-bg: $ol-orange;
+$vs-item-color: $black;
+$vs-item-hidden-color: $ol-transparent-half;
+$vs-item-bg: $ol-wheat;
+$vs-item-arrow: $arrow-bg;
+$vs-item-border: $ol-transparent-half;
+
+$vs-submenu-color: $black;
+$vs-submenu-bg: $white;
+$vs-submenu-heading-color: $black;
+$vs-submenu-heading-bg: $ol-wheat;
+$vs-submenu-heading-border: $ol-grey-moon;
+$vs-submenu-numbers-color: $black;
+$vs-submenu-numbers-bg: $ol-orange;
+$vs-submenu-numbers-border: $ol-transparent-full;
+
+$virtual-match-header-border: rgba(255, 157, 63, 0.34);
+$virtual-match-header-headings: $black;
+$virtual-match-bg: $white;
+$virtual-match-border: $ol-grey-moon;
+$virtual-match-number: $ol-transparent-half;
+$virtual-match-title: $ol-blue;
+$virtual-match-label: $ol-transparent-half;
+
+$calculator-top-bg: $ol-orange;
+$calculator-top-title: $black;
+$calculator-top-subtitle: $ol-transparent-half;
+$calculator-top-arrow: $ol-transparent-half;
+$calculator-top-active-bg: $ol-wheat;
+$calculator-top-active-title: $ol-blue-light;
+$calculator-top-active-subtitle: $ol-transparent-half;
+$calculator-top-active-arrow: $ol-transparent-half;
+$calculator-open-bg: $white;
+$calculator-item-bg: $white;
+$calculator-item-color: $black;
+$calculator-item-border: $ol-orange;
+$calculator-item-header-bg: $ol-orange;
+$calculator-item-text-highlighted: $ol-blue;
+$calculator-item-input-color: $black;
+$calculator-item-input-bg: $white;
+$calculator-item-input-border: $ol-transparent-full;
+
+$live-page-bg: $white;
+
+$special-bg: $main-bg;
+$jackpot-id-color: $white;
+$jackpot-id-bg: $ol-blue;
+$jackpot-usd: $ol-orange;
+$jackpot-inner-bg: $main-bg;
+
+$statements-nav-item-color: $black;
+$statements-nav-item-bg: $white;
+$statements-nav-item-border: $ol-blue;
+$statements-nav-icon-color: $white;
+$statements-nav-icon-bg: $ol-blue;
+
+$statements-nav-item-active-color: $white;
+$statements-nav-item-active-bg: $ol-blue;
+$statements-nav-item-active-border: $ol-blue;
+
+$statements-item-bg: $white;
+$statements-item-color: $black;
+$statements-item-border: $ol-wheat;
+$statements-item-header-bg: $ol-wheat;
+$statements-item-text-highlighted: $ol-blue;
+$statements-item-date-color: $black;
+$statements-item-date-bg: $ol-light-grey;
+
+$bets-calendar-color: $black;
+$bets-calendar-bg: $ol-orange;
+$bets-calendar-arrows: $black;
+$bets-selection-color: $ol-transparent-half;
+$bets-selection-bg: $ol-wheat;
+$bets-selection-border: $ol-orange;
+
+$inputs-title-color: $black;
+$inputs-title-bg: $ol-orange;
+$inputs-label-color: $black;
+$inputs-body-bg: $ol-wheat-light;
+$inputs-body-border: $ol-orange;
+$inputs-input-title: $black;
+$inputs-input-hide-title: $ol-transparent-half;
+$inputs-input-icon: $ol-light-red;
+$inputs-input-default-color: $ol-transparent-half;
+$inputs-input-default-placeholder: $ol-transparent-half;
+$inputs-input-default-bg: $white;
+$inputs-input-default-border: $ol-orange;
+$inputs-input-default-arrow: $ol-transparent-half;
+$inputs-input-default-arrow-bg: $inputs-input-default-bg;
+
+$inputs-input-special-color: $black;
+$inputs-input-special-placeholder: $black;
+$inputs-input-special-bg: $ol-wheat-lighter;
+$inputs-input-special-border: rgba(255, 159, 62, 0.2);
+$inputs-input-special-arrow: $ol-transparent-half;
+$inputs-input-special-arrow-bg: $inputs-input-special-bg;
+$inputs-button-color: $white;
+$inputs-button-bg: $ol-blue;
+
+$bet-calculator-bg: $ol-wheat;
+$bet-calculator-border: $ol-orange;
+$bet-calculator-borders: $ol-orange;
+$bet-calculator-label: $black;
+$bet-calculator-text: $ol-transparent-dark;
+$bet-calculator-titles: $ol-transparent-half;
+$bet-calculator-numbers: $ol-transparent-half;
+$bet-calculator-input-color: $black;
+$bet-calculator-input-border: $ol-transparent-full;
+$bet-calculator-input-bg: $white;
+$bet-calculator-input-arrow: $ol-transparent-half;
+$bet-calculator-input-icon-color: $white;
+$bet-calculator-input-icon-bg: $ol-blue;
+$bet-calculator-input-icon-border: $ol-blue;
+$bet-calculator-input-cross: $ol-blue;
+$bet-calculator-input-disabled-color: $ol-transparent-half;
+$bet-calculator-input-disabled-bg: $ol-grey-moon;
+$bet-calculator-input-disabled-border: $ol-grey-moon;
+$bet-calculator-checkbox-bg: $white;
+$bet-calculator-checkbox-border: $black;
+$bet-calculator-checkbox-active-color: $ol-blue;
+$bet-calculator-text-highlighted: $ol-blue;
+
+$search-header-loupe: $ol-orange;
+$search-title: $black;
+$search-subtitle: $ol-transparent-half;
+$search-icon-full: $ol-translusent-20;
+$search-icon-translucent: $ol-transparent-full;
+$search-icon-transparent: $ol-transparent-0;
+
+$search-big-loupe: $ol-orange;
+$search-big-icon: $ol-blue;
+
+$casino-item-active-bg: linear-gradient(135deg, #437cd6 0%, #003884 100%);
+
+//*results
+$results-navigation-button-color: $black;
+$results-navigation-button-border: $ol-transparent-full;
+$results-navigation-button-bg: $white;
+$results-navigation-button-active-color: $black;
+$results-navigation-button-active-border: $ol-orange;
+$results-navigation-button-active-bg: $ol-orange;
+
+$results-bg: $white;
+$results-dropdown-color: $black;
+$results-dropdown-border: $ol-orange;
+$results-dropdown-background: $white;
+$results-dropdown-arrow-color: $ol-transparent-half;
+$results-dropdown-icon-color: $ol-blue;
+
+$results-item-header-score-color: $black;
+$results-item-header-score-border: #eb913a;
+$results-item-header-score-bg: $ol-orange;
+
+$results-item-labels-color: $ol-transparent-half;
+
+$results-item-counts-border-bottom: $ol-grey-moon;
+$results-item-count-color: $black;
+$results-item-count-color-highlighted: $ol-blue;
